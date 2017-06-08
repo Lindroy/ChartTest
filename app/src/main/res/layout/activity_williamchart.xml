@@ -6,7 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.lindroid.charttest.WilliamChartActivity">
 
-    <com.db.chart.view.LineChartView
+    <com.db.chart.view.LineChartView xmlns:chart="http://schemas.android.com/apk/res-auto"
+        chart:chart_shadowDx="2dp"
+
+        chart:chart_shadowDy="2dp"
+
+        chart:chart_shadowRadius="2dp"
+        chart:chart_shadowColor="#fa1111"
         android:layout_centerInParent="true"
         android:id="@+id/linechart"
         android:layout_width="match_parent"
