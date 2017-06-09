@@ -7,16 +7,17 @@
     tools:context="com.lindroid.charttest.WilliamChartActivity">
 
     <com.db.chart.view.LineChartView xmlns:chart="http://schemas.android.com/apk/res-auto"
-        chart:chart_shadowDx="2dp"
-
-        chart:chart_shadowDy="2dp"
-
-        chart:chart_shadowRadius="2dp"
-        chart:chart_shadowColor="#fa1111"
         android:layout_centerInParent="true"
         android:id="@+id/linechart"
         android:layout_width="match_parent"
-        android:layout_height="500dp"/>
+        android:layout_height="300dp" />
+
+    <Button
+        android:text="展示动画"
+        android:layout_below="@+id/linechart"
+        android:onClick="showAnimation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 
 </RelativeLayout>

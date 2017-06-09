@@ -7,4 +7,8 @@
     <color name="color_grid">#9af4fc</color>
     <color name="color_fill">#8e9af4fc</color>
     <color name="color_bottom">#7ec8fbff</color>
+    <color name="color_bottom1">#53c1bd</color>
+    <color name="color_bottom2">#3d6c73</color>
+    <color name="color_bottom3">#364d5a</color>
+    <color name="color_bottom4">#3f7178</color>
 </resources>

@@ -1,1 +1,1 @@
-include ':app', ':williamchart', ':WilliamChart', ':wearable'
+include ':app'
